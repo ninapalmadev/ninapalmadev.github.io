@@ -1,32 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web - Nina Palma</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #F0EAFC;
+            font-family: sans-serif;
+        }
+
+        .header {
+            padding: 12px;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+        }
+        .header img{
+            width: 250px;
+            border-radius: 2%;
+        }
+        .header h1 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #61CEF2;
+            margin: 12px 0px;
+        }
+
+        .header h2 {
+            margin: 10px 0px;
+        }
+        .header p {
+            text-align: justify;
+        }
+
+        .about-p {
+            font-weight: bold;
+        }
+
+        .skills{
+            padding: 12px;
+            width: 60%;
+            margin: auto;
+        }
+        .skills ul {
+            list-style: none;
+        }
+        .skills li{
+            padding: 6px 0px;
+        }
+        .footer {
+            text-align: center;
+            padding: 12px;
+            width: 60%;
+            margin: auto;
+        }
+
+        /* 
+        #D8E5FA 
+        #C0E1F9
+        #A9DCF7
+        #91D7F5
+        #79D3F4
+        #61CEF2
+        */
+    </style>
 </head>
+
 <body>
-    <img src="./image/IMG_20230213_150357_753.jpg" width="300px" alt="Imagem pessoal de Nina usando camiseta cinza com mangas pretas" id="personal-img">
-    <h1>Ana Carolina Palma - Nina</h1>
-    <h2><a href="#about">Sobre mim</a></h2>
-        <p>
-            Olá, mundo. Sou a Nina, brasileira e de São Paulo - SP. Tenho 28 anos, formada em Comunicação Social - Rádio, Tv e Internet e possuo pós-gradução em Criminologia. Atualmente estudando programação pela Trybe.
+    <div class="header">
+        <img src="./image/IMG_20230213_150357_753.jpg" alt="Imagem pessoal de Nina usando camiseta cinza com mangas pretas" id="personal-img">
+        <h1>Ana Carolina Palma - Nina</h1>
+        <h2><a href="#about">Sobre mim</a></h2>
+        <p class="about-p">
+            Olá, mundo. Sou a Nina, brasileira e de São Paulo - SP. Tenho 28 anos, formada em Comunicação Social -
+            Rádio, Tv e Internet e possuo pós-gradução em Criminologia. Atualmente estudando programação pela Trybe.
         </p>
         <p>
             Sou interessada por games, música pop, vôlei feminino, reality shows e fofoca.
         </p>
-    <h2>Habilidades</h2>
-    <ul>
-        <li>Comunicação</li>
-        <li><strong>Bom humor</strong></li>
-        <li>Criatividade</li>
-        <li><em>Organização</em></li>
-        <li>Empatia</li>
-    </ul>
+    </div>
+    <div class="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Comunicação</li>
+            <li><strong>Bom humor</strong></li>
+            <li>Criatividade</li>
+            <li><em>Organização</em></li>
+            <li>Empatia</li>
+        </ul>
+    </div>
 
-    <a href="#personal-img">Minha imagem</a>
-    <a href="https://jovemnerd.com.br/" target="_blank">Blog favorito</a>
+    <div class="footer">
+        <a href="#personal-img">Minha imagem</a>
+        <a href="https://jovemnerd.com.br/" target="_blank">Blog favorito</a>
+    </div>
 
 </body>
+
 </html>
